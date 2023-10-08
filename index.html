@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swap nummbers</title>
+</head>
+<body>
+    <script>
+        var a=parseInt(prompt("Enter the first number"));
+                document.write(`First number= ${a} <br><br>`);
+                var b=parseInt(prompt("Enter the second number"));
+                document.write(`Second number= ${b} <br><br>`);
+                var swap=(n1,n2)=>{
+                    c=n1;
+                    n1=n2;
+                    n2=c;
+                    document.write(`Swap of the number is ${n1} , ${n2}`);
+                }
+                swap(a,b);
+    </script>
+</body>
+</html>
